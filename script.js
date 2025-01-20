@@ -4,7 +4,7 @@ const titleElement = document.querySelector(".title");
 const buttonsContainer = document.querySelector(".buttons");
 const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
-const catImg = document.querySelector(".cat-img");
+const catImg = document.querySelector(".cat-main");
 
 const MAX_IMAGES = 5;
 
@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-${image}.jpg`;
+  catMain.src = `main/cat-${image}.jpg`;
 }
 
 function updateNoButtonText() {
