@@ -48,7 +48,6 @@ function generateMessage(noCount) {
     "Don't do this to your baby",
     "You're breaking my butt",
     "I'm gonna fart la...",
-    "well here you go smell it now",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
